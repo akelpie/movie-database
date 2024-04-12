@@ -46,6 +46,7 @@ This homework assignment involves using `sqlite3` and `flask` libraries to build
   - Fetch and display the top 5 movies of a given year.
   - Main module to run the application if it's the main module.
 
+
 ### SQL Commands
 
 - Directly write SQL commands for all database interactions. The use of libraries like `sqlalchemy` for SQL generation is not permitted and will result in a loss of points.
@@ -54,3 +55,18 @@ This homework assignment involves using `sqlite3` and `flask` libraries to build
 
 - The use of the first 5 characters of a movie's title followed by its release year will uniquely identify movies for this project.
 - Verification of data fitting within text fields and user ratings being a numeric value between 1 and 5 will be managed via client-side JavaScript, not within the scope of this assignment.
+
+## Running the Application
+
+### Setting up the Database
+
+Run the `setup.py` script to create and initialize the database and tables:
+
+```bash
+python3 setup.py
+```
+To start the web application, run the following command in your terminal:
+```bash
+python3 app.py
+```
+
