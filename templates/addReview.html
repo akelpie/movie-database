@@ -1,0 +1,42 @@
+<!--  Name: Jasmine Masopeh 
+      FSUID: jdm21e 
+      Due Date: 2/21/2024
+      The program in this file is the individual work of Jasmine Masopeh 
+-->
+<html>
+   <body>
+      <form action="{{ url_for('addrec') }}" method="POST">
+         <h1>Submit a New Review</h1>
+
+         
+         Your Username<br>
+         <input type="text" name="Username" /><br>
+
+         <h2> Movie Information </h2>
+         Title<br>
+         <textarea name="Title"></textarea><br>
+
+         Director<br>
+         <input type="text" name="Director" /><br>
+
+         Year<br>
+         <input type="number" name="Year" /><br>
+
+         Genre<br>
+         <input type="text" name="Genre" /><br>
+
+         <h2> Your Review</h2>
+         Review<br>
+         <textarea name="Review"></textarea><br>
+
+         Rating<br>
+         <input type="number" step="any" name="Rating" /><br>
+
+
+         
+
+         
+         <input type="submit" value="submit" /><br>
+      </form>
+   </body>
+</html>
